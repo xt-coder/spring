@@ -53,6 +53,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.jdbc.datasource.TransactionAwareDataSourceProxy;
 
 /**
+ * 这里是spring-mybatis 入口
+ *
  * {@code FactoryBean} that creates an MyBatis {@code SqlSessionFactory}.
  * This is the usual way to set up a shared MyBatis {@code SqlSessionFactory} in a Spring application context;
  * the SqlSessionFactory can then be passed to MyBatis-based DAOs via dependency injection.
