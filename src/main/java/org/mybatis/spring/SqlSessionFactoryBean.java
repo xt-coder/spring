@@ -346,6 +346,8 @@ public class SqlSessionFactoryBean implements FactoryBean<SqlSessionFactory>, In
   }
 
   /**
+   *
+   * 使用标准的mybatisapi 来创建一个实例 根据一个Reader
    * Build a {@code SqlSessionFactory} instance.
    *
    * The default implementation uses the standard MyBatis {@code XMLConfigBuilder} API to build a
